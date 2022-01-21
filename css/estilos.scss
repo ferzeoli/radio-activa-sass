@@ -138,6 +138,7 @@ color: azure;
 
 /* --------------- NUEVOS PROGRAMAS ------------------ */
 
+@media (min-width: 1024px) { 
 .contenido-nuevos{
   padding-top: 3rem;
   color: whitesmoke;
@@ -199,7 +200,7 @@ background-color: blueviolet;
   box-shadow: 0 0 20px blueviolet;
   border-width: 0.2rem;
     }
-
+  }
 
 /*------------------ NOSOTROS ------------------*/
 
@@ -282,3 +283,147 @@ background-color: blueviolet;
 }
 
 
+
+
+/* celulares */
+ 
+
+@media (min-width:480px) and (max-width:768px) { 
+  .titulo__seccion{
+  font-size: 1.5rem;
+  align-items: center;
+  text-align: center;
+  }
+  
+  .publicidad{
+    display: none;
+  }
+
+  .texto__a{  
+  flex-direction: column;
+  font-size: 1rem;
+  font-weight: 200;
+  align-items: center;
+  text-align: center;
+  }
+  
+  .footer__menu--principal{
+  font-size: 0.8rem;
+  text-align: center;
+  word-spacing: 0.2rem;
+  } 
+  
+  iframe{
+  height:380px;
+  width: 120%;
+  text-align: center;
+  }
+
+  .noticias{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+  }  
+
+  .noticia01{
+    max-width: fit-content;
+    display: inline-block;
+  }
+  
+  .noticia02{
+    max-width: fit-content;
+    display: inline-block;
+  }
+  .noticia03{
+    max-width: fit-content;
+    display: inline-block;
+  }  
+ 
+.card-deck{
+  display: inline-block;
+}
+
+.contenedorprogramas{
+  display: inline-block;
+  min-width: 85rem;
+}
+
+.list-group{
+  display: grid;
+  padding-bottom: 2rem;
+}
+
+
+
+
+.form-group{
+  padding: 3rem;
+  text-align: center;
+  font-size: 1rem;
+  
+}
+.form-control{
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  min-width: 20rem;
+  max-width: 25rem;
+  border-radius: 5rem;
+  padding: 0.5rem;
+}
+ .form-control:hover{
+    background-color: gainsboro;
+
+  }
+  .form-control:focus{
+    border-style: solid;
+    box-shadow: 0 0 20px blueviolet;
+    border-width: 0.2rem;
+  }
+
+
+.horarios{
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+.radio:focus{  
+box-shadow: 0 0 20px #fff;
+background-color: blueviolet;
+}
+
+.form-text{
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+  min-width: 35rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+ .form-text:focus{  
+  border-style: solid;
+  box-shadow: 0 0 20px blueviolet;
+  border-width: 0.2rem;
+    }
+    .contenido-nuevos{
+      padding-top: 3rem;
+      color: whitesmoke;
+        background-color: #200522;
+        font-family: oswald;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .form-text{
+      margin-bottom: 1.5rem;
+      margin-top: 0.5rem;
+      min-width: 20rem;
+      max-width: 25rem;
+      border-radius: 0.5rem;
+      padding: 1rem;
+    }
+     .form-text:focus{  
+      border-style: solid;
+      box-shadow: 0 0 20px blueviolet;
+      border-width: 0.2rem;
+        }
+}

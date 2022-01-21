@@ -18,7 +18,7 @@ a:link, a:visited, a:active {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  background-image: url(/img/Banner.png);
+  background-image: url(/img/banner.png);
   background-color: #09163a;
   background-size: cover;
   background-repeat: no-repeat;
@@ -161,6 +161,69 @@ a:link, a:visited, a:active {
   }
 }
 
+@media (min-width: 480px) and (max-width: 768px) {
+  .header {
+    text-align: center;
+  }
+  .header__navbar--principal {
+    font-size: 0.7rem;
+    text-align: center;
+    word-spacing: 0.2rem;
+  }
+  .btnini {
+    background-color: black;
+    border-color: grey;
+    text-align: center;
+    border-style: groove;
+    border-bottom-left-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    width: flex;
+  }
+  .btnini :hover {
+    font-size: 110%;
+    font-weight: bold;
+    color: mintcream;
+  }
+  .btnmid {
+    background-color: black;
+    border-color: grey;
+    text-align: center;
+    border-style: groove;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    width: flex;
+  }
+  .btnmid :hover {
+    font-size: 110%;
+    font-weight: bold;
+    color: mintcream;
+  }
+  .btnfin {
+    background-color: black;
+    border-color: grey;
+    text-align: center;
+    border-style: groove;
+    border-bottom-right-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    width: flex;
+  }
+  .btnfin :hover {
+    font-size: 110%;
+    font-weight: bold;
+    color: mintcream;
+  }
+}
+
 /* ---------------------- FOOTER ------------------ */
 a:link, a:visited, a:active {
   text-decoration: none;
@@ -243,6 +306,51 @@ a:link, a:visited, a:active {
   font-family: open sans;
   font-weight: bolder;
   color: #fff;
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .btn-ok {
+    text-transform: uppercase;
+    background-color: green;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    border-color: #378955;
+    font-family: open sans;
+    font-size: 0.7rem;
+    font-weight: bolder;
+    color: #fff;
+  }
+  .btn-cancel {
+    text-transform: uppercase;
+    background-color: #da0202;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    border-color: #e71b1b;
+    font-family: open sans;
+    font-size: 0.7rem;
+    font-weight: bolder;
+    color: #fff;
+  }
+  .btn-cargar {
+    text-transform: uppercase;
+    background-color: #1802da;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    border-color: #1e1be7;
+    font-family: open sans;
+    font-size: 0.7rem;
+    font-weight: bolder;
+    color: #fff;
+  }
 }
 
 /* ------------- HOME -----------------*/
@@ -369,70 +477,63 @@ container:hover {
 }
 
 /* --------------- NUEVOS PROGRAMAS ------------------ */
-.contenido-nuevos {
-  padding-top: 3rem;
-  color: whitesmoke;
-  background-color: #200522;
-  font-family: oswald;
-  font-size: 2rem;
-  text-align: center;
-}
-
-.texto__a {
-  font-size: 1.8rem;
-  font-weight: 300;
-}
-
-.form-group {
-  padding: 5rem;
-  text-align: left;
-  font-size: 1.3rem;
-}
-
-.form-control {
-  margin-bottom: 1.5rem;
-  margin-top: 0.5rem;
-  min-width: 35rem;
-  border-radius: 5rem;
-  padding: 1rem;
-}
-
-.form-control:hover {
-  background-color: gainsboro;
-}
-
-.form-control:focus {
-  border-style: solid;
-  -webkit-box-shadow: 0 0 20px blueviolet;
-          box-shadow: 0 0 20px blueviolet;
-  border-width: 0.2rem;
-}
-
-.horarios {
-  font-size: 1.2rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-.radio:focus {
-  -webkit-box-shadow: 0 0 20px #fff;
-          box-shadow: 0 0 20px #fff;
-  background-color: blueviolet;
-}
-
-.form-text {
-  margin-bottom: 1.5rem;
-  margin-top: 0.5rem;
-  min-width: 35rem;
-  border-radius: 0.5rem;
-  padding: 1rem;
-}
-
-.form-text:focus {
-  border-style: solid;
-  -webkit-box-shadow: 0 0 20px blueviolet;
-          box-shadow: 0 0 20px blueviolet;
-  border-width: 0.2rem;
+@media (min-width: 1024px) {
+  .contenido-nuevos {
+    padding-top: 3rem;
+    color: whitesmoke;
+    background-color: #200522;
+    font-family: oswald;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .texto__a {
+    font-size: 1.8rem;
+    font-weight: 300;
+  }
+  .form-group {
+    padding: 5rem;
+    text-align: left;
+    font-size: 1.3rem;
+  }
+  .form-control {
+    margin-bottom: 1.5rem;
+    margin-top: 0.5rem;
+    min-width: 35rem;
+    border-radius: 5rem;
+    padding: 1rem;
+  }
+  .form-control:hover {
+    background-color: gainsboro;
+  }
+  .form-control:focus {
+    border-style: solid;
+    -webkit-box-shadow: 0 0 20px blueviolet;
+            box-shadow: 0 0 20px blueviolet;
+    border-width: 0.2rem;
+  }
+  .horarios {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .radio:focus {
+    -webkit-box-shadow: 0 0 20px #fff;
+            box-shadow: 0 0 20px #fff;
+    background-color: blueviolet;
+  }
+  .form-text {
+    margin-bottom: 1.5rem;
+    margin-top: 0.5rem;
+    min-width: 35rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+  }
+  .form-text:focus {
+    border-style: solid;
+    -webkit-box-shadow: 0 0 20px blueviolet;
+            box-shadow: 0 0 20px blueviolet;
+    border-width: 0.2rem;
+  }
 }
 
 /*------------------ NOSOTROS ------------------*/
@@ -514,5 +615,143 @@ container:hover {
   border-style: groove;
   border-radius: 1.5rem;
   padding: 1rem;
+}
+
+/* celulares */
+@media (min-width: 480px) and (max-width: 768px) {
+  .titulo__seccion {
+    font-size: 1.5rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .publicidad {
+    display: none;
+  }
+  .texto__a {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 1rem;
+    font-weight: 200;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .footer__menu--principal {
+    font-size: 0.8rem;
+    text-align: center;
+    word-spacing: 0.2rem;
+  }
+  iframe {
+    height: 380px;
+    width: 120%;
+    text-align: center;
+  }
+  .noticias {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+  }
+  .noticia01 {
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    display: inline-block;
+  }
+  .noticia02 {
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    display: inline-block;
+  }
+  .noticia03 {
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    display: inline-block;
+  }
+  .card-deck {
+    display: inline-block;
+  }
+  .contenedorprogramas {
+    display: inline-block;
+    min-width: 85rem;
+  }
+  .list-group {
+    display: -ms-grid;
+    display: grid;
+    padding-bottom: 2rem;
+  }
+  .form-group {
+    padding: 3rem;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .form-control {
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    min-width: 20rem;
+    max-width: 25rem;
+    border-radius: 5rem;
+    padding: 0.5rem;
+  }
+  .form-control:hover {
+    background-color: gainsboro;
+  }
+  .form-control:focus {
+    border-style: solid;
+    -webkit-box-shadow: 0 0 20px blueviolet;
+            box-shadow: 0 0 20px blueviolet;
+    border-width: 0.2rem;
+  }
+  .horarios {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .radio:focus {
+    -webkit-box-shadow: 0 0 20px #fff;
+            box-shadow: 0 0 20px #fff;
+    background-color: blueviolet;
+  }
+  .form-text {
+    margin-bottom: 1.5rem;
+    margin-top: 0.5rem;
+    min-width: 35rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+  }
+  .form-text:focus {
+    border-style: solid;
+    -webkit-box-shadow: 0 0 20px blueviolet;
+            box-shadow: 0 0 20px blueviolet;
+    border-width: 0.2rem;
+  }
+  .contenido-nuevos {
+    padding-top: 3rem;
+    color: whitesmoke;
+    background-color: #200522;
+    font-family: oswald;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .form-text {
+    margin-bottom: 1.5rem;
+    margin-top: 0.5rem;
+    min-width: 20rem;
+    max-width: 25rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+  }
+  .form-text:focus {
+    border-style: solid;
+    -webkit-box-shadow: 0 0 20px blueviolet;
+            box-shadow: 0 0 20px blueviolet;
+    border-width: 0.2rem;
+  }
 }
 /*# sourceMappingURL=estilos.css.map */

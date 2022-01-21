@@ -41,3 +41,53 @@
     font-weight: bolder;
     color: #fff;
   }
+
+  
+@media (min-width:480px) and (max-width:768px){
+
+
+  .btn-ok{
+    text-transform: uppercase;
+    background-color: green;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    border-color: #378955;
+    font-family: open sans;
+    font-size: 0.7rem;
+    font-weight: bolder;
+    color: #fff;
+  }
+  
+  .btn-cancel{
+    text-transform: uppercase;
+    background-color: rgb(218, 2, 2);
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    border-color: rgb(231, 27, 27);
+    font-family: open sans;
+    font-size: 0.7rem;
+    font-weight: bolder;
+    color: #fff;
+  }
+
+  .btn-cargar{
+    text-transform: uppercase;
+    background-color: rgb(24, 2, 218);
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    border-color: rgb(30, 27, 231);
+    font-family: open sans;
+    font-size: 0.7rem;
+    font-weight: bolder;
+    color: #fff;
+  }
+}
