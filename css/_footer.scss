@@ -1,0 +1,42 @@
+
+/* ---------------------- FOOTER ------------------ */
+a:link, a:visited, a:active {
+    text-decoration:none;
+  }
+.footer {
+    background-color: #09163a;
+    background-size: cover;
+    }
+    
+    .footer__menu {
+        
+    text-decoration: none;
+    background-color: #09163a;
+    font-family: open sans;
+    text-align: center;
+    font-size: 1rem;
+    padding: 1.5rem;
+
+    ul {
+    padding: 1rem;
+    list-style-type: none;
+    }
+    
+    li {
+    display: inline-block;
+    }
+    
+    a{
+        color: whitesmoke;
+    }
+    }
+    
+    .footer__abajo {
+    text-decoration: none;
+    background-color: thistle;
+    text-align: center;
+    font-family: open sans;
+    font-size: 0.8rem;
+    padding: 1.5rem;
+    }
+  

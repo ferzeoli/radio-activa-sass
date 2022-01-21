@@ -1,0 +1,284 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: #09163a;
+}
+
+
+@import "menu";
+@import "footer";
+@import "botones";
+
+
+/* ------------- HOME -----------------*/
+
+
+#grillahome{
+
+  display: grid;
+  grid-template-areas:
+  "video video publicidad"
+  "novedades novedades novedades"
+  "noticias noticias noticias"
+  "footer footer footer";
+
+
+  grid-template-columns: 40% 40% 20%;
+  margin: 2;
+}
+
+
+.video{
+  background-color: #09163a;
+  padding-left: 1.5rem;
+  text-align: left;
+  size-adjust: flex;
+  grid-area: video;
+}
+
+.publicidad{
+
+text-decoration: none;
+color: thistle;
+font-size: 0.8rem;
+background-color: #09163a;
+grid-area: publicidad;
+}
+
+.novedades{
+padding-top: 3rem;
+color: whitesmoke;
+  background-color: #200522;
+  grid-area: novedades;
+  font-family: oswald;
+  font-size: 2rem;
+  text-align: center;
+  
+}
+
+.noticias{
+background-color: #200522;
+grid-area: noticias;
+padding: 3rem;
+display: flex;
+text-align: center;
+}
+
+container:hover{
+box-shadow: 0 0 20px #fff;
+}
+
+
+.imgnoticia{
+height: 13rem;
+border-radius: 0.5rem;
+border-style: solid;
+}
+
+.noticia01{
+  background-color: #333555;
+  padding: 3rem;
+  padding-bottom: 2rem;
+  border-top-right-radius: 3rem;
+  border-top-left-radius: 0.7rem;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 0.7rem;
+  width: 65rem;
+  margin: 3rem;
+  grid-area: noticia01;
+}
+
+
+.noticia02{
+  background-color: #333111;
+  padding: 3rem;
+  padding-bottom: 2rem;
+  border-top-right-radius: 3rem;
+  border-top-left-radius: 0.7rem;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 0.7rem;
+  width: 65rem;
+  margin: 3rem;
+  grid-area: noticia02;
+}
+
+.noticia03{
+  background-color: #378955;
+  padding: 3rem;
+  padding-bottom: 2rem;
+  border-top-right-radius: 3rem;
+  border-top-left-radius: 0.7rem;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 0.7rem;
+  width: 65rem;
+  margin: 3rem;
+  grid-area: noticia03;
+}
+
+.titulo__tarjeta{
+padding: 1rem;
+font-size: 1.5rem;
+font-family: oswald;
+font-weight: bold;
+color: aliceblue;
+}
+
+.texto{
+padding: 0.3rem;
+font-family: open sans;
+font-size: 1rem;
+font-weight: light;
+color: azure;
+}
+
+
+
+/* --------------- NUEVOS PROGRAMAS ------------------ */
+
+.contenido-nuevos{
+  padding-top: 3rem;
+  color: whitesmoke;
+    background-color: #200522;
+    font-family: oswald;
+    font-size: 2rem;
+    text-align: center;
+}
+.texto__a{
+  font-size: 1.8rem;
+  font-weight: 300;
+
+}
+.form-group{
+  padding: 5rem;
+  text-align: left;
+  font-size: 1.3rem;
+  
+}
+.form-control{
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+  min-width: 35rem;
+  border-radius: 5rem;
+  padding: 1rem;
+}
+ .form-control:hover{
+    background-color: gainsboro;
+
+  }
+  .form-control:focus{
+    border-style: solid;
+    box-shadow: 0 0 20px blueviolet;
+    border-width: 0.2rem;
+  }
+
+
+.horarios{
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+.radio:focus{  
+box-shadow: 0 0 20px #fff;
+background-color: blueviolet;
+}
+
+.form-text{
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+  min-width: 35rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+ .form-text:focus{  
+  border-style: solid;
+  box-shadow: 0 0 20px blueviolet;
+  border-width: 0.2rem;
+    }
+
+
+/*------------------ NOSOTROS ------------------*/
+
+
+.card{
+  margin: 2rem;
+  background-color: lightblue;
+  display: flex;
+}
+
+.titulo__seccion{
+  font-family: oswald;
+  text-align: center;  
+  font-weight: bold;
+  color: aliceblue;
+  font-size: 3.5rem;
+}
+
+.card-deck{
+  background-color: #200522;
+  padding: 3rem;
+  display: flex;
+  text-align: center;
+
+  :hover{
+    box-shadow: 0 0 10px #fff;
+
+  }
+}
+
+
+/*----------------- PROGRAMAS ----------------- */
+
+.contenedorprogramas{
+  position: relative;
+  margin: 3rem;
+  display: flex;
+}
+.col-4{
+  max-width: 33.33333333%;
+  grid-area: col-4;
+  padding-right: 3rem;
+}
+.col-8{
+  margin-left: 3rem;
+  max-width: 60%;
+  grid-area: col-8;
+  color: whitesmoke;
+}
+
+#contenedorprogramas{
+
+  display: grid;
+  grid-template-areas:
+  "col4 col8 col8";
+  margin: 2;
+}
+
+/* ----------------RRHH--------------- */
+
+.rrhh{
+  padding: 3rem;
+  color: whitesmoke;
+    background-color: #200522;
+    font-family: oswald;
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.alineacion-centro{
+  text-align: center;
+}
+
+.datos{
+  border-color: whitesmoke;
+  border-style: groove;
+  border-radius: 1.5rem;
+  padding: 1rem;
+}
+
+

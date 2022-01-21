@@ -1,0 +1,43 @@
+/*-------------- BOTONES---------*/
+
+.btn-ok{
+    text-transform: uppercase;
+    background-color: green;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-radius: 0.5rem;
+    border-color: #378955;
+    font-family: open sans;
+    font-weight: bolder;
+    color: #fff;
+  }
+  
+  .btn-cancel{
+    text-transform: uppercase;
+    background-color: rgb(218, 2, 2);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-radius: 0.5rem;
+    border-color: rgb(231, 27, 27);
+    font-family: open sans;
+    font-weight: bolder;
+    color: #fff;
+  }
+
+  .btn-cargar{
+    text-transform: uppercase;
+    background-color: rgb(24, 2, 218);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-radius: 0.5rem;
+    border-color: rgb(30, 27, 231);
+    font-family: open sans;
+    font-weight: bolder;
+    color: #fff;
+  }

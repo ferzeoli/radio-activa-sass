@@ -1,0 +1,518 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #09163a;
+}
+
+/* -----------------------HEADER-------------------- */
+a:link, a:visited, a:active {
+  text-decoration: none;
+}
+
+.header {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-image: url(/img/Banner.png);
+  background-color: #09163a;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* -----------------------NAVBAR------------------ */
+.header__navbar--principal ul {
+  padding: 2rem;
+  list-style-type: none;
+}
+
+.header__navbar--principal {
+  text-decoration: none;
+  font-family: open sans !important;
+  text-align: right;
+  font-size: 1.1rem;
+  padding: 1.5rem;
+}
+
+.header__navbar--principal li {
+  display: inline-block;
+}
+
+.header__navbar--principal a {
+  color: whitesmoke;
+}
+
+.btnini {
+  background-color: midnightblue;
+  border-color: mediumblue;
+  text-align: center;
+  border-style: groove;
+  border-bottom-left-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  padding-left: 0.9rem;
+  padding-right: 0.9rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  width: flex;
+}
+
+.btnini :hover {
+  font-size: 110%;
+  font-weight: bold;
+  color: mintcream;
+}
+
+.btnmid {
+  background-color: midnightblue;
+  border-color: mediumblue;
+  border-style: groove;
+  padding-left: 0.9rem;
+  padding-right: 0.9rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  width: flex;
+}
+
+.btnmid :hover {
+  font-size: 110%;
+  font-weight: bold;
+  color: mintcream;
+}
+
+.btnfin {
+  background-color: midnightblue;
+  border-color: mediumblue;
+  border-style: groove;
+  border-bottom-right-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  padding-left: 0.9rem;
+  padding-right: 0.9rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  width: flex;
+}
+
+.btnfin :hover {
+  font-size: 110%;
+  font-weight: bold;
+  color: mintcream;
+}
+
+.logoradio {
+  margin-left: 3rem;
+  margin-right: 2rem;
+  padding-top: 2rem;
+  -webkit-animation-name: logo-animado;
+          animation-name: logo-animado;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  position: relative;
+}
+
+@-webkit-keyframes logo-animado {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  25% {
+    -webkit-transform: rotate(25deg);
+            transform: rotate(25deg);
+  }
+  50% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  75% {
+    -webkit-transform: rotate(-25deg);
+            transform: rotate(-25deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@keyframes logo-animado {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  25% {
+    -webkit-transform: rotate(25deg);
+            transform: rotate(25deg);
+  }
+  50% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  75% {
+    -webkit-transform: rotate(-25deg);
+            transform: rotate(-25deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+/* ---------------------- FOOTER ------------------ */
+a:link, a:visited, a:active {
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #09163a;
+  background-size: cover;
+}
+
+.footer__menu {
+  text-decoration: none;
+  background-color: #09163a;
+  font-family: open sans;
+  text-align: center;
+  font-size: 1rem;
+  padding: 1.5rem;
+}
+
+.footer__menu ul {
+  padding: 1rem;
+  list-style-type: none;
+}
+
+.footer__menu li {
+  display: inline-block;
+}
+
+.footer__menu a {
+  color: whitesmoke;
+}
+
+.footer__abajo {
+  text-decoration: none;
+  background-color: thistle;
+  text-align: center;
+  font-family: open sans;
+  font-size: 0.8rem;
+  padding: 1.5rem;
+}
+
+/*-------------- BOTONES---------*/
+.btn-ok {
+  text-transform: uppercase;
+  background-color: green;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-radius: 0.5rem;
+  border-color: #378955;
+  font-family: open sans;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.btn-cancel {
+  text-transform: uppercase;
+  background-color: #da0202;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-radius: 0.5rem;
+  border-color: #e71b1b;
+  font-family: open sans;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.btn-cargar {
+  text-transform: uppercase;
+  background-color: #1802da;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-radius: 0.5rem;
+  border-color: #1e1be7;
+  font-family: open sans;
+  font-weight: bolder;
+  color: #fff;
+}
+
+/* ------------- HOME -----------------*/
+#grillahome {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "video video publicidad" "novedades novedades novedades" "noticias noticias noticias" "footer footer footer";
+  -ms-grid-columns: 40% 40% 20%;
+      grid-template-columns: 40% 40% 20%;
+  margin: 2;
+}
+
+.video {
+  background-color: #09163a;
+  padding-left: 1.5rem;
+  text-align: left;
+  size-adjust: flex;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: video;
+}
+
+.publicidad {
+  text-decoration: none;
+  color: thistle;
+  font-size: 0.8rem;
+  background-color: #09163a;
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: publicidad;
+}
+
+.novedades {
+  padding-top: 3rem;
+  color: whitesmoke;
+  background-color: #200522;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: novedades;
+  font-family: oswald;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.noticias {
+  background-color: #200522;
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: noticias;
+  padding: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+container:hover {
+  -webkit-box-shadow: 0 0 20px #fff;
+          box-shadow: 0 0 20px #fff;
+}
+
+.imgnoticia {
+  height: 13rem;
+  border-radius: 0.5rem;
+  border-style: solid;
+}
+
+.noticia01 {
+  background-color: #333555;
+  padding: 3rem;
+  padding-bottom: 2rem;
+  border-top-right-radius: 3rem;
+  border-top-left-radius: 0.7rem;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 0.7rem;
+  width: 65rem;
+  margin: 3rem;
+  grid-area: noticia01;
+}
+
+.noticia02 {
+  background-color: #333111;
+  padding: 3rem;
+  padding-bottom: 2rem;
+  border-top-right-radius: 3rem;
+  border-top-left-radius: 0.7rem;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 0.7rem;
+  width: 65rem;
+  margin: 3rem;
+  grid-area: noticia02;
+}
+
+.noticia03 {
+  background-color: #378955;
+  padding: 3rem;
+  padding-bottom: 2rem;
+  border-top-right-radius: 3rem;
+  border-top-left-radius: 0.7rem;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 0.7rem;
+  width: 65rem;
+  margin: 3rem;
+  grid-area: noticia03;
+}
+
+.titulo__tarjeta {
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-family: oswald;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+.texto {
+  padding: 0.3rem;
+  font-family: open sans;
+  font-size: 1rem;
+  font-weight: light;
+  color: azure;
+}
+
+/* --------------- NUEVOS PROGRAMAS ------------------ */
+.contenido-nuevos {
+  padding-top: 3rem;
+  color: whitesmoke;
+  background-color: #200522;
+  font-family: oswald;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.texto__a {
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.form-group {
+  padding: 5rem;
+  text-align: left;
+  font-size: 1.3rem;
+}
+
+.form-control {
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+  min-width: 35rem;
+  border-radius: 5rem;
+  padding: 1rem;
+}
+
+.form-control:hover {
+  background-color: gainsboro;
+}
+
+.form-control:focus {
+  border-style: solid;
+  -webkit-box-shadow: 0 0 20px blueviolet;
+          box-shadow: 0 0 20px blueviolet;
+  border-width: 0.2rem;
+}
+
+.horarios {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.radio:focus {
+  -webkit-box-shadow: 0 0 20px #fff;
+          box-shadow: 0 0 20px #fff;
+  background-color: blueviolet;
+}
+
+.form-text {
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+  min-width: 35rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.form-text:focus {
+  border-style: solid;
+  -webkit-box-shadow: 0 0 20px blueviolet;
+          box-shadow: 0 0 20px blueviolet;
+  border-width: 0.2rem;
+}
+
+/*------------------ NOSOTROS ------------------*/
+.card {
+  margin: 2rem;
+  background-color: lightblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.titulo__seccion {
+  font-family: oswald;
+  text-align: center;
+  font-weight: bold;
+  color: aliceblue;
+  font-size: 3.5rem;
+}
+
+.card-deck {
+  background-color: #200522;
+  padding: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+.card-deck :hover {
+  -webkit-box-shadow: 0 0 10px #fff;
+          box-shadow: 0 0 10px #fff;
+}
+
+/*----------------- PROGRAMAS ----------------- */
+.contenedorprogramas {
+  position: relative;
+  margin: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.col-4 {
+  max-width: 33.33333333%;
+  grid-area: col-4;
+  padding-right: 3rem;
+}
+
+.col-8 {
+  margin-left: 3rem;
+  max-width: 60%;
+  grid-area: col-8;
+  color: whitesmoke;
+}
+
+#contenedorprogramas {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "col4 col8 col8";
+  margin: 2;
+}
+
+/* ----------------RRHH--------------- */
+.rrhh {
+  padding: 3rem;
+  color: whitesmoke;
+  background-color: #200522;
+  font-family: oswald;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.alineacion-centro {
+  text-align: center;
+}
+
+.datos {
+  border-color: whitesmoke;
+  border-style: groove;
+  border-radius: 1.5rem;
+  padding: 1rem;
+}
+/*# sourceMappingURL=estilos.css.map */

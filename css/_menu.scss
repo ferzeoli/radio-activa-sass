@@ -1,0 +1,112 @@
+
+/* -----------------------HEADER-------------------- */
+a:link, a:visited, a:active {
+  text-decoration:none;
+}
+.header {
+    height: fit-content;
+    background-image: url(/img/Banner.png);
+    background-color: #09163a;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  /* -----------------------NAVBAR------------------ */
+  
+  .header__navbar--principal ul {
+    padding: 2rem;
+    list-style-type: none;
+  }
+  
+  
+  .header__navbar--principal {
+    text-decoration: none;
+    font-family: open sans!important;
+    text-align: right;
+    font-size: 1.1rem;
+    padding: 1.5rem;
+    
+    li {
+      display: inline-block;
+    }
+    
+    a {
+      color: whitesmoke;
+    }
+    
+  }
+  
+  .btnini{
+    background-color: midnightblue;
+    border-color: mediumblue;
+    text-align: center;
+    border-style: groove;
+    border-bottom-left-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    padding-left: 0.9rem;
+  padding-right: 0.9rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+    width: flex;
+
+    :hover{
+      font-size: 110%;
+      font-weight: bold;
+      color: mintcream;
+      
+    }
+  }
+  .btnmid{
+    background-color: midnightblue;
+    border-color: mediumblue;
+    border-style: groove;
+    padding-left: 0.9rem;
+  padding-right: 0.9rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+    width: flex;
+    
+    :hover{
+      font-size: 110%;
+      font-weight: bold;
+      color: mintcream;
+    }
+  }
+  .btnfin{
+    background-color: midnightblue;
+    border-color: mediumblue;
+    border-style: groove;
+    border-bottom-right-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    padding-left: 0.9rem;
+  padding-right: 0.9rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+    width: flex;
+
+    :hover{
+      font-size: 110%;
+      font-weight: bold;
+      color: mintcream;
+    }
+
+  }
+
+  .logoradio{
+    margin-left: 3rem;
+    margin-right: 2rem;
+    padding-top: 2rem;
+    animation-name: logo-animado;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+  }
+  
+  @keyframes logo-animado {
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(25deg);}
+    50% {transform: rotate(0deg);}
+    75% {transform: rotate(-25deg);}
+    100% {transform: rotate(0deg);}
+  }
+
